@@ -48,15 +48,16 @@ sk-learn
 seaborn
 matplotlib
 xgboost
-How to Run the Code
-Install the necessary Python libraries
-Download or Verify Dataset
-Ensure the dataset (dataset.csv) is available in the project directory.
-Execute the EDA script to visualize COVID-19 trends:
-Run the script to train Random Forest, XGBoost, and Linear Regression models
-Use the trained models to predict future confirmed cases:
-The script will display Mean Squared Error (MSE), R², MAE, and accuracy for each model.
-Modify & Tune Hyperparameters (Optional)
+
+# How to Run the Code
+1. Install the necessary Python libraries
+2. Download or Verify Dataset
+3. Ensure the dataset (dataset.csv) is available in the project directory.
+4. Execute the EDA script to visualize COVID-19 trends:
+5. Run the script to train Random Forest, XGBoost, and Linear Regression models
+6. Use the trained models to predict future confirmed cases:
+7. The script will display Mean Squared Error (MSE), R², MAE, and accuracy for each model.
+8. Modify & Tune Hyperparameters (Optional)
 
 To improve model accuracy, update hyperparameter grids in model_training.py.
 Example: Modify n_estimators, max_depth, or learning_rate for XGBoost.
