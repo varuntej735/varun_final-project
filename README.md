@@ -42,10 +42,27 @@ Prerequisites:
 
 Python 3.x
 Required libraries:
-
 pandas
 numpy
 sk-learn
 seaborn
 matplotlib
 xgboost
+How to Run the Code
+Install the necessary Python libraries
+Download or Verify Dataset
+Ensure the dataset (dataset.csv) is available in the project directory.
+Execute the EDA script to visualize COVID-19 trends:
+Run the script to train Random Forest, XGBoost, and Linear Regression models
+Use the trained models to predict future confirmed cases:
+The script will display Mean Squared Error (MSE), R², MAE, and accuracy for each model.
+Modify & Tune Hyperparameters (Optional)
+
+To improve model accuracy, update hyperparameter grids in model_training.py.
+Example: Modify n_estimators, max_depth, or learning_rate for XGBoost.
+Visualize Predictions & Trends
+
+Run eda_visualization.py again to compare actual vs. predicted cases using time-series plots.
+
+
+
